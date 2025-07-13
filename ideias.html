@@ -47,7 +47,55 @@
         <h2>Ideias de Micro SaaS</h2>
 
         <div class="idea">
-            <h3>1. Marketplace de Templates para Notion</h3>
+            <h3>1. Plataforma de Votação Online para Condomínios e Clubes</h3>
+            <p><strong>Descrição:</strong> Ferramenta para realizar votações online em assembleias de condomínios e clubes, com registro de votos, autenticação e geração de atas eletrônicas. Grande mercado no Brasil, com possibilidade de agregar mais funcionalidades no futuro.</p>
+            <p><span class="tech-stack">Requisitos Técnicos:</span></p>
+            <ul>
+                <li><strong>Backend:</strong> .NET Core (para gerenciamento de votações, autenticação de usuários, registro de votos, geração de atas).</li>
+                <li><strong>Frontend:</strong> React (para interface de votação, visualização de resultados, gerenciamento de assembleias).</li>
+                <li><strong>Banco de Dados:</strong> PostgreSQL (para armazenamento de dados de condomínios/clubes, usuários, votações).</li>
+                <li><strong>Segurança:</strong> Mecanismos robustos de autenticação e integridade de dados.</li>
+            </ul>
+            <div class="idea-analysis">
+                <h4>Análise de Mercado e Potencial de Sucesso</h4>
+                <p><strong>Produtos Semelhantes/Concorrentes:</strong> Não especificado diretamente, mas muitas soluções existentes são genéricas ou parte de sistemas de gestão de condomínios maiores.</p>
+                <p><strong>Análise da Concorrência:</strong></p>
+                <ul>
+                    <li>Nível de Saturação: Baixa a moderada.</li>
+                    <li>Diferenciais dos Concorrentes: Não especificado diretamente.</li>
+                    <li>Oportunidades de Nicho/Diferenciação: Ferramenta dedicada e fácil de usar para o mercado específico de condomínios e clubes.</li>
+                </ul>
+                <p><strong>Potencial de Sucesso:</strong> Alto</p>
+                <p><strong>Justificativa:</strong> Mercado nacional grande com necessidades específicas e tendência de digitalização. Concorrência baixa a moderada, com oportunidade para uma ferramenta dedicada.</p>
+            </div>
+            <div class="ai-prompt">
+                <h4>Prompt para Ferramenta de IA (Ex: Gemini CLI, Lovable)</h4>
+                <pre>Crie um projeto Micro SaaS para uma Plataforma de Votação Online para Condomínios e Clubes.
+
+**Nome da Ideia:** Plataforma de Votação Online para Condomínios e Clubes
+
+**Descrição:** Ferramenta para realizar votações online em assembleias de condomínios e clubes, com registro de votos, autenticação e geração de atas eletrônicas. Grande mercado no Brasil, com possibilidade de agregar mais funcionalidades no futuro.
+
+**Tecnologias:**
+- Back-End: ASP.NET Core 8 LTS, C#
+- Banco de Dados: PostgreSQL, Entity Framework Core
+- Autenticação: JWT (JSON Web Token)
+- Arquitetura: DDD, SOLID, Clean Architecture, Repository Pattern
+- Frontend Web (Dashboard): Razor Pages (foco inicial), possível migração para Blazor Server
+- Frontend Mobile: React Native (Mobile First)
+- DevOps: Docker, Docker Compose, Git, GitHub, Multipass (simulação)
+- Google AI & Cloud: Gemini CLI (Google) e ChatGPT
+- Editor: VS Code (configurado no macOS Catalina)
+- Auxiliares: OpenAI CLI, Azure Data Studio, Node.js (CLI tooling)
+- Logging: Serilog
+
+**Funcionalidades Iniciais (MVP):**
+- Cadastro de condomínios/clubes e usuários (moradores/membros).
+            </div>
+        </div>
+
+        <div class="idea">
+            <h3>2. Marketplace de Templates para Notion</h3>
             <p><strong>Descrição:</strong> Um site onde usuários podem publicar e vender seus templates de Notion, e a plataforma cobra uma comissão sobre cada venda. O Notion é muito popular globalmente, criando uma demanda por esse tipo de conteúdo.</p>
             <p><span class="tech-stack">Requisitos Técnicos:</span></p>
             <ul>
@@ -114,54 +162,6 @@ Breve menção sobre como a arquitetura pode ser escalada para suportar um grand
         </div>
 
         <div class="idea">
-            <h3>2. Plataforma de Votação Online para Condomínios e Clubes</h3>
-            <p><strong>Descrição:</strong> Ferramenta para realizar votações online em assembleias de condomínios e clubes, com registro de votos, autenticação e geração de atas eletrônicas. Grande mercado no Brasil, com possibilidade de agregar mais funcionalidades no futuro.</p>
-            <p><span class="tech-stack">Requisitos Técnicos:</span></p>
-            <ul>
-                <li><strong>Backend:</strong> .NET Core (para gerenciamento de votações, autenticação de usuários, registro de votos, geração de atas).</li>
-                <li><strong>Frontend:</strong> React (para interface de votação, visualização de resultados, gerenciamento de assembleias).</li>
-                <li><strong>Banco de Dados:</strong> PostgreSQL (para armazenamento de dados de condomínios/clubes, usuários, votações).</li>
-                <li><strong>Segurança:</strong> Mecanismos robustos de autenticação e integridade de dados.</li>
-            </ul>
-            <div class="idea-analysis">
-                <h4>Análise de Mercado e Potencial de Sucesso</h4>
-                <p><strong>Produtos Semelhantes/Concorrentes:</strong> Não especificado diretamente, mas muitas soluções existentes são genéricas ou parte de sistemas de gestão de condomínios maiores.</p>
-                <p><strong>Análise da Concorrência:</strong></p>
-                <ul>
-                    <li>Nível de Saturação: Baixa a moderada.</li>
-                    <li>Diferenciais dos Concorrentes: Não especificado diretamente.</li>
-                    <li>Oportunidades de Nicho/Diferenciação: Ferramenta dedicada e fácil de usar para o mercado específico de condomínios e clubes.</li>
-                </ul>
-                <p><strong>Potencial de Sucesso:</strong> Alto</p>
-                <p><strong>Justificativa:</strong> Mercado nacional grande com necessidades específicas e tendência de digitalização. Concorrência baixa a moderada, com oportunidade para uma ferramenta dedicada.</p>
-            </div>
-            <div class="ai-prompt">
-                <h4>Prompt para Ferramenta de IA (Ex: Gemini CLI, Lovable)</h4>
-                <pre>Crie um projeto Micro SaaS para uma Plataforma de Votação Online para Condomínios e Clubes.
-
-**Nome da Ideia:** Plataforma de Votação Online para Condomínios e Clubes
-
-**Descrição:** Ferramenta para realizar votações online em assembleias de condomínios e clubes, com registro de votos, autenticação e geração de atas eletrônicas. Grande mercado no Brasil, com possibilidade de agregar mais funcionalidades no futuro.
-
-**Tecnologias:**
-- Back-End: ASP.NET Core 8 LTS, C#
-- Banco de Dados: PostgreSQL, Entity Framework Core
-- Autenticação: JWT (JSON Web Token)
-- Arquitetura: DDD, SOLID, Clean Architecture, Repository Pattern
-- Frontend Web (Dashboard): Razor Pages (foco inicial), possível migração para Blazor Server
-- Frontend Mobile: React Native (Mobile First)
-- DevOps: Docker, Docker Compose, Git, GitHub, Multipass (simulação)
-- Google AI & Cloud: Gemini CLI (Google) e ChatGPT
-- Editor: VS Code (configurado no macOS Catalina)
-- Auxiliares: OpenAI CLI, Azure Data Studio, Node.js (CLI tooling)
-- Logging: Serilog
-
-**Funcionalidades Iniciais (MVP):**
-- Cadastro de condomínios/clubes e usuários (moradores/membros).
-            </div>
-        </div>
-
-        <div class="idea">
             <h3>3. ERP para Prestadores de Serviço</h3>
             <p><strong>Descrição:</strong> Um sistema de gestão (ERP) focado em prestadores de serviço no Brasil. Inclui funcionalidades como agenda, gerenciamento de contratos, cobrança, fluxo de caixa e lembretes. Idealmente, com foco mobile. Grande mercado para profissionais como instaladores de ar condicionado, "maridos de aluguel", etc. Exemplo: Agendor (alternativa mais simples).</p>
             <p><span class="tech-stack">Requisitos Técnicos:</span></p>
@@ -187,7 +187,7 @@ Breve menção sobre como a arquitetura pode ser escalada para suportar um grand
                 <h4>Prompt para Ferramenta de IA (Ex: Gemini CLI, Lovable)</h4>
                 <pre>Crie um projeto Micro SaaS para um ERP para Prestadores de Serviço.
 
-**Nome da Ideia:** ERP para Prestadores de Serviço
+**Nome da Ideia:** ERP para Prestadores de Serviço.
 
 **Descrição:** Um sistema de gestão (ERP) focado em prestadores de serviço no Brasil. Inclui funcionalidades como agenda, gerenciamento de contratos, cobrança, fluxo de caixa e lembretes. Idealmente, com foco mobile. Grande mercado para profissionais como instaladores de ar condicionado, "maridos de aluguel", etc. Exemplo: Agendor (alternativa mais simples).
 
@@ -211,7 +211,8 @@ Breve menção sobre como a arquitetura pode ser escalada para suportar um grand
 
         <div class="idea">
             <h3>4. Gestor de Finanças para MEIs</h3>
-            <p><strong>Descrição:</strong> Uma plataforma simples, preferencialmente mobile, para Microempreendedores Individuais (MEIs) gerenciarem suas finanças. Permite cadastrar receitas, despesas, impostos a pagar e visualizar relatórios mensais. Potencial de mercado enorme no Brasil (20 milhões de MEIs). Bônus: integração com ferramentas de pagamento (QR Code Pix, boleto, cartão).</p>
+            <p><strong>Descrição:</strong> Uma plataforma simples, preferencialmente mobile, para Microempreendedores Individuais (MEIs) gerenciarem suas finanças. Permite cadastrar receitas, despesas, impostos a pagar e visualizar relatórios mensais. Potencial de mercado enorme no Brasil (20 milhões de MEIs). Bônus: integração com ferramentas de pagamento (QR Code Pix, boleto, cartão).
+</p>
             <p><span class="tech-stack">Requisitos Técnicos:</span></p>
             <ul>
                 <li><strong>Backend:</strong> .NET Core (para gerenciamento de transações financeiras, cálculo de impostos, geração de relatórios).</li>
@@ -235,7 +236,7 @@ Breve menção sobre como a arquitetura pode ser escalada para suportar um grand
                 <h4>Prompt para Ferramenta de IA (Ex: Gemini CLI, Lovable)</h4>
                 <pre>Crie um projeto Micro SaaS para um Gestor de Finanças para MEIs.
 
-**Nome da Ideia:** Gestor de Finanças para MEIs
+**Nome da Ideia:** Gestor de Finanças para MEIs.
 
 **Descrição:** Uma plataforma simples, preferencialmente mobile, para Microempreendedores Individuais (MEIs) gerenciarem suas finanças. Permite cadastrar receitas, despesas, impostos a pagar e visualizar relatórios mensais. Potencial de mercado enorme no Brasil (20 milhões de MEIs). Bônus: integração com ferramentas de pagamento (QR Code Pix, boleto, cartão).
 
@@ -294,7 +295,7 @@ Breve menção sobre como a arquitetura pode ser escalada para suportar um grand
                 <h4>Prompt para Ferramenta de IA (Ex: Gemini CLI, Lovable)</h4>
                 <pre>Crie um projeto Micro SaaS para um Sistema para Acompanhamento de Obras.
 
-**Nome da Ideia:** Sistema para Acompanhamento de Obras
+**Nome da Ideia:** Sistema para Acompanhamento de Obras.
 
 **Descrição:** Um aplicativo com duas pontas: uma para o pessoal da obra (upload de fotos de progresso) e outra para o dono/gestor da obra (acompanhamento da evolução, aprovação/recusa de requisições de materiais). Grande mercado no Brasil, com muitas obras em andamento.
 
